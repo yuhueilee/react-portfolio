@@ -21,7 +21,7 @@ const Contact = () => {
       'contact_service',
       'contact_form',
       refForm.current,
-      'your_token'
+      'p4zAYlaj8KBvzGM-w'
     ).then(
       () => {
         alert('Message successfully sent!');
