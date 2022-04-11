@@ -47,6 +47,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in full-time/part-time/internship opportunities!
+            Please don't hestitate to contact me.
           </p>
           <div className='contact-form'>
             <form ref={refForm} onSubmit={sendEmail}>
