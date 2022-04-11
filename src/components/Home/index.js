@@ -58,6 +58,9 @@ const Home = () => {
           <h2>Fresh Graduate / Front-end Developer</h2>
           <Link to='/contact' className='flat-button'>CONTACT ME</Link>
         </div>
+        <div className='logo-container'>
+          <img src={LogoTitle} alt='developer name' />
+        </div>
       </div>
       <Loader type='line-scale-pulse-out' />
     </>
