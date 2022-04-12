@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yuhueilee.github.io/react-portfolio",
+  "homepage": "https://yuhueilee.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
