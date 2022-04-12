@@ -1,4 +1,5 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef } from 'react';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import emailjs from '@emailjs/browser';
 import './index.scss';
 import Loader from 'react-loaders';
@@ -39,7 +40,7 @@ const Contact = () => {
       <div className='container contact-page'>
         <div className='text-zone'>
           <h1>
-            <AnimatedLetters 
+            <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
@@ -74,6 +75,23 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          (Wendy) Lee Yu Huei
+          <br />
+          Sec. 1, Kangning Rd., 
+          <br />
+          Neihu Dist., Taipei City<br />
+          Taiwan<br /><br />
+          <span>wendylee70127@gmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[25.078927, 121.597335]} zoom={13}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[25.078927, 121.597335]}>
+              <Popup>Wendy lives here :)</Popup>
+            </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type='line-scale-pulse-out' />
