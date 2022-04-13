@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-import LogoTitle from '../../assests/images/logoTitle.png'
+import LogoTitle from '../../assests/images/logoTitle.png';
+import CV from '../../assests/YuHuei_CV.pdf';
 import Loader from 'react-loaders';
 
 const Home = () => {
@@ -56,7 +57,10 @@ const Home = () => {
             />
           </h1>
           <h2>Fresh Graduate / Front-end Developer</h2>
-          <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+          <div className='btn-container'>
+            <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+            <a href={CV} download className='flat-button'>DOWNLOAD CV</a>
+          </div>
         </div>
         <div className='logo-container'>
           <img src={LogoTitle} alt='developer name' />
