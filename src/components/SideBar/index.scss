@@ -1,9 +1,5 @@
-$primary-color: #f4af1b;
-$secondary-color: #00154f;
-$tertiary-color: #f2bc94;
-
 .nav-bar {
-  background: black;
+  background: var(--primary-black);
   width: 60px;
   height: 100%;
   position: absolute;
@@ -38,7 +34,7 @@ $tertiary-color: #f2bc94;
 
     a {
       font-size: 22px;
-      color: #4d4d4e;
+      color: var(--secondary-black);
       display: block;
       line-height: 51px;
       height: 51px;
@@ -50,7 +46,7 @@ $tertiary-color: #f2bc94;
       }
 
       &:hover {
-        color: #f9e574;
+        color: var(--tertiary-yellow);
 
         svg {
           opacity: 0;
@@ -96,7 +92,7 @@ $tertiary-color: #f2bc94;
 
     a.active {
       svg {
-        color: #ffd700;
+        color: var(--secondary-yellow);
       }
     }
   }
@@ -117,10 +113,10 @@ $tertiary-color: #f2bc94;
         display: block;
         font-size: 15px;
         line-height: 16px;
-        color: #4d4d4e;
+        color: var(--secondary-black);
 
         &:hover {
-          color: #ffd700;
+          color: var(--secondary-yellow);
         }
       }
     }

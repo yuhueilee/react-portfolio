@@ -1,3 +1,16 @@
+:root {
+  --primary-pink: #f2bc94;
+
+  --primary-yellow: #f4af1b;
+  --secondary-yellow: #ffd700;
+  --tertiary-yellow: #f9e574;
+
+  --primary-blue: #00154f;
+  
+  --primary-black: #000000;
+  --secondary-black: #4d4d4e;
+}
+
 html {
   font-size: 62.5%;
 }

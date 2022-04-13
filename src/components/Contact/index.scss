@@ -57,12 +57,12 @@
   }
 
   .flat-button {
-    color: #ffd700;
+    color: var(--secondary-yellow);
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #ffd700;
+    border: 1px solid var(--secondary-yellow);
     float: left;
     border-radius: 4px;
     background: 0 0;
@@ -72,7 +72,7 @@
     margin-right: 10px;
 
     &:hover {
-      background: #ffd700;
+      background: var(--secondary-yellow);
       color: #333;
       cursor: pointer;
     }
@@ -116,7 +116,7 @@
     font-size: 16px;
 
     span {
-      color: #ffd700;
+      color: var(--secondary-yellow);
     }
   }
 }
