@@ -24,6 +24,10 @@ const Projects = () => {
               idx={15}
             />
           </h1>
+          <p>
+            During my university life, I have participated in many dirrerent kinds of team projects. 
+            This section will display a portion of it.
+          </p>
         </div>
       </div>
       <Loader type='line-scale-pulse-out' />
