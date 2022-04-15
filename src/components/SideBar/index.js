@@ -27,7 +27,7 @@ const SideBar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <NavLink activeclassname="active" className="projects-link" to="/projects">
+        <NavLink activeclassname="active" className="projects-link" to="/project">
           <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
         </NavLink>
       </nav>
