@@ -23,7 +23,7 @@ const Project = () => {
     {
       img: Project2,
       title: 'Hybrid MPI Implementation',
-      description: 'This project aims to design and develop a tsunami detection in a distributed wireless sensor network.',
+      description: 'This project aims to design and develop a tsunami detection in a distributed wireless sensor network. The programming language used is C and the libraries used are OpenMP and MPI.',
       link: 'https://github.com/yuhueilee/FIT3143-ParallelProgramming-Assignments'
     },
   ];
