@@ -9,6 +9,7 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import Project1 from '../../assests/images/project-1.jpeg';
 import Project2 from '../../assests/images/project-2.jpg';
+import Project3 from '../../assests/images/project-3.png';
 
 const Project = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -25,6 +26,12 @@ const Project = () => {
       title: 'Hybrid MPI Implementation',
       description: 'This project aims to design and develop a tsunami detection in a distributed wireless sensor network. The programming language used is C and the libraries used are OpenMP and MPI.',
       link: 'https://github.com/yuhueilee/FIT3143-ParallelProgramming-Assignments'
+    },
+    {
+      img: Project3,
+      title: 'Java CLI Game',
+      description: 'A command-line interface game created using Java. With the existing code base provided, the required functionalities are designed initially using UML and sequence diagrams, and implemented afterwards.',
+      link: 'https://github.com/yuhueilee/FIT2099-ObjectOrientedProgramming-Assignment'
     },
   ];
 
@@ -46,7 +53,8 @@ const Project = () => {
             />
           </h1>
           <p>
-            During my university life, I have participated in many dirrerent kinds of team projects.
+            During my university life, I have participated in many dirrerent kinds of team projects 
+            with various programming languages, functional and non-functional requirements.
             This section will display a portion of it.
           </p>
         </div>
