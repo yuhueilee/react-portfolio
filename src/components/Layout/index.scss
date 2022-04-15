@@ -18,7 +18,7 @@
   margin-left: -20px;
 }
 
-.container {
+.box {
   width: 100%;
   will-change: contents;
   height: 90%;
@@ -33,9 +33,9 @@
   animation-delay: 1s;
 }
 
-.container.project-page,
-.container.contact-page,
-.container.about-page {
+.box.project-page,
+.box.contact-page,
+.box.about-page {
   .text-zone {
     position: absolute;
     left: 10%;
