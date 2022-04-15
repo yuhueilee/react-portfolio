@@ -90,6 +90,12 @@
       }
     }
 
+    a.projects-link {
+      &:after {
+        content: 'PROJECT';
+      }
+    }
+
     a.active {
       svg {
         color: var(--secondary-yellow);
