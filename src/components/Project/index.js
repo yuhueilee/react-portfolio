@@ -4,7 +4,7 @@ import './index.scss';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 
-const Projects = () => {
+const Project = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const Projects = () => {
   );
 }
 
-export default Projects;
+export default Project;
