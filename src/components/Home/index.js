@@ -68,7 +68,7 @@ const Home = () => {
           <img src={LogoTitle} alt='developer name' />
         </div>
       </div>
-      <Loader type='line-scale-pulse-out' />
+      <Loader type='line-scale-pulse-out' color='#f4af1b' />
     </>
   );
 };
