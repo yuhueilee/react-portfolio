@@ -79,17 +79,15 @@ const Contact = () => {
         <div className="info-map">
           (Wendy) Lee Yu Huei
           <br />
-          Sec. 1, Kangning Rd., 
-          <br />
           Neihu Dist., Taipei City<br />
           Taiwan<br /><br />
           <span>wendylee70127@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[25.078927, 121.597335]} zoom={13}>
+          <MapContainer center={[25.083396, 121.594360]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[25.078927, 121.597335]}>
-              <Popup>Wendy lives here :)</Popup>
+            <Marker position={[25.083396, 121.594360]}>
+              <Popup>Wendy lives in this area :)</Popup>
             </Marker>
           </MapContainer>
         </div>
