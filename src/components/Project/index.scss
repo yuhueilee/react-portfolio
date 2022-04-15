@@ -1,0 +1,9 @@
+.project-ctn {
+  float: right;
+  width: 50%;
+  height: 100%;
+  margin-right: 20px;
+  overflow-y: scroll;
+  opacity: 0;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;}
